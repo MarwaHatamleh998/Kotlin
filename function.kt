@@ -47,5 +47,7 @@ if(loggedIn){
   val times = arrayOf<Double>(10.00 , 3.00  , 8.00 )
   println("الوقت الأول: " + times[0])
 
-
+  for (i in 1..3){
+     println(i)
+   }  
 }

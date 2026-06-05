@@ -46,7 +46,6 @@ fun countAvailableBooks(books: Array<Book>): Int {
 }
 
 fun main() {
-    // Variables
     var appName: String = "Smart Community Library"   // intentional error
     val maxBooks: Int = 3
     var averageRating: Double = 4.2

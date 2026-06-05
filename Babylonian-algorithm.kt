@@ -1,13 +1,21 @@
+import kotlin.math.abs
+
+
 fun main() {
 
     // تعريف المتغير الذي يمثل العدد المراد حساب جذره التربيعي
-    val number: Double = 2.3
+    val number: Double = 81.0
 
     // تخمين أولي لقيمة الجذر التربيعي
-    var guess: Double = 4.4
+    var guess: Double = 10.0
 
     // متغير لتخزين القيمة الجديدة في كل تكرار
     var newGuess: Double = 0.0
+
+    val difference = kotlin.math.abs(newGuess - guess)
+
+        println("Guess = $newGuess")
+        println("Difference = $difference")
 
     // التحقق إذا كان العدد غير صالح (صفر أو سالب)
     if (number <= 0) {
